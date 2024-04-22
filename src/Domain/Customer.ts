@@ -12,7 +12,7 @@ export class Customer {
     if (name === '' || password === '') {
       throw new Error('Both username and password cannot be empty.');
     }
-    this.userId = ++Customer.id; /// I updated the userID pattern
+    this.userId = ++Customer.id; 
   }
 
   sendWelcomeNote() {
